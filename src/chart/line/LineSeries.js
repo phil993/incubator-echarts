@@ -27,6 +27,8 @@ export default SeriesModel.extend({
 
     dependencies: ['grid', 'polar'],
 
+    brushSelector: 'rect',
+
     getInitialData: function (option, ecModel) {
         if (__DEV__) {
             var coordSys = option.coordinateSystem;
